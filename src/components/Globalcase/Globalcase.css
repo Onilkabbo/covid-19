@@ -1,0 +1,53 @@
+.Globalcase {
+    margin-top: 30px;
+    text-align: center;
+}
+.octagon_card {
+    background: transparent;
+    position: relative;
+    border: 2px solid #4872BB;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50px 1px;
+    color: #DEEFFF;
+    text-align: center;
+}
+.global_title {
+    color: #DEEFFF;
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+    .octagon_card h2 {
+        font-size: 18px;
+    }
+    .octagon_card h3 {
+        font-size: 16px;
+    }
+    .octagon_card {
+        background: transparent;
+        position: relative;
+        border: 2px solid #4872BB;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #DEEFFF;
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .octagon_card h2 {
+        font-size: 16px;
+    }
+    .octagon_card h3 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 350px) {
+    .octagon_card h2 {
+        font-size: 12px;
+    }
+    .octagon_card h3 {
+        font-size: 11px;
+    }
+}
